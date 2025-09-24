@@ -86,7 +86,7 @@ npm install
 
 **Set Up Environment Variables**
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
 VITE_TMDB_API_KEY=
@@ -94,6 +94,7 @@ VITE_TMDB_API_KEY=
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_COLLECTION_ID=
+VITE_APPWRITE_ENDPOINT =
 ```
 
 Replace the placeholder values with your actual **[TheMovieDatabase API](https://developer.themoviedb.org/reference/intro/getting-started)** and **[Appwrite](https://apwr.dev/JSM050)** credentials.
